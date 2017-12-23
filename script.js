@@ -14,14 +14,10 @@ $(document).ready(function(){
             // Move the background
             $bgobj.css({ backgroundPosition: coords });
             if ($(window).scrollTop() < $(window).height()-1000) {
-                $('#navBar').removeClass('navBar-fixed');
-                $('#navBar').addClass('navBar-absolute');
                 $('#bar').removeClass('bar-fixed');
                 $('#bar').addClass('bar-absolute');
             }
             if ($(window).scrollTop() > $(window).height()-1000) {
-                $('#navBar').removeClass('navBar-absolute');
-                $('#navBar').addClass('navBar-fixed');
                 $('#bar').removeClass('bar-absolute');
                 $('#bar').addClass('bar-fixed');
             }
