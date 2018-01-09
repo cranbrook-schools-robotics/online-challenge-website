@@ -4,6 +4,16 @@ html {
   height: 100%; 
 }
 
+.text{
+  padding: 20px;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 75%;
+  background-color: #EEEEEE;
+  box-shadow: 1px 1px 0px 0px #CCCCCC;
+}
+
 body {
   font-family: 'Roboto', sans-serif; 
 }
