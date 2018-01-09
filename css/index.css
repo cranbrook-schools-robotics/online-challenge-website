@@ -77,7 +77,19 @@ img::-moz-selection {
 
 body {
   -webkit-tap-highlight-color: #212529; }
+  
+ .teamNumber{
+	 text-align: center;
+	 color: black;
+ }
 
+ .teamBody{
+	 text-align:left;
+	 color: #757575;
+	 background: #E1E1E1;
+ }
+ 
+ 
 #mainNav {
   border-bottom: 1px solid rgba(33, 37, 41, 0.1);
   background-color: #fff;
@@ -137,4 +149,6 @@ body {
           #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover,
           #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover {
             color: #F05F40; } }
+			
+			
 
