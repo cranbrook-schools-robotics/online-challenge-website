@@ -348,4 +348,15 @@ div.hi:hover{
     box-shadow: 1px 1px 0px 0px #CCCCCC;
 }
 
+.vex-vid{
+  width: 100%;
+  height: 800px;
+}
+
+@media(max-width: 500px){
+  .vex-vid{
+    height: 350px;
+  }
+}
+
 
