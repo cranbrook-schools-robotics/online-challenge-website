@@ -195,7 +195,7 @@ h1{
 }
 
 a.teamLink:hover{
-	color: #121212;
+	color: #40d1f0;
 	text-decoration: none;
 }
 
@@ -233,6 +233,25 @@ body {
     }
 
     #slides .slidesjs-next {
+      margin-right: 5px;
+      float: left;
+    }
+
+
+    #slides2 {
+      display: none
+    }
+
+    #slides2 .slidesjs-navigation {
+      margin-top:3px;
+    }
+
+    #slides2 .slidesjs-previous {
+      margin-right: 5px;
+      float: left;
+    }
+
+    #slides2 .slidesjs-next {
       margin-right: 5px;
       float: left;
     }
@@ -281,6 +300,10 @@ body {
       overflow: hidden
     }
 #slides {
+      display: none
+    }
+
+    #slides2 {
       display: none
     }
 
