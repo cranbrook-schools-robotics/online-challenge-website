@@ -189,6 +189,16 @@ h1{
   width: 100%;
 }
 
+.teamLink{
+	text-align: center;
+	color: #555555;
+}
+
+a.teamLink:hover{
+	color: #121212;
+	text-decoration: none;
+}
+
 
 
 .description{
