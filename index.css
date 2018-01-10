@@ -237,6 +237,25 @@ body {
       float: left;
     }
 
+
+    #slides2 {
+      display: none
+    }
+
+    #slides2 .slidesjs-navigation {
+      margin-top:3px;
+    }
+
+    #slides2 .slidesjs-previous {
+      margin-right: 5px;
+      float: left;
+    }
+
+    #slides2 .slidesjs-next {
+      margin-right: 5px;
+      float: left;
+    }
+
     .slidesjs-pagination {
       margin: 6px 0 0;
       float: right;
@@ -281,6 +300,10 @@ body {
       overflow: hidden
     }
 #slides {
+      display: none
+    }
+
+    #slides2 {
       display: none
     }
 
