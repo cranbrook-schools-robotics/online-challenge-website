@@ -4,16 +4,6 @@ html {
   height: 100%; 
 }
 
-.text{
-  padding: 20px;
-  margin: auto;
-  margin-top: 15px;
-  margin-bottom: 15px;
-  width: 75%;
-  background-color: #EEEEEE;
-  box-shadow: 1px 1px 0px 0px #CCCCCC;
-}
-
 body {
   font-family: 'Roboto', sans-serif; 
 }
@@ -21,22 +11,27 @@ body {
 hr {
   max-width: 50px;
   border-width: 3px;
-  border-color: lightblue; 
+  border-color: #F05F40; 
 }
 
 hr.light {
   border-color: #fff; 
 }
 
+header{
+  background-image: url(img/group.png);
+  background-size: cover;
+}
+
 a {
-  color: lightblue;
+  color: #F05F40;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   transition: all 0.2s; 
 }
 
 a:hover {
-  color: blue; 
+  color: #f05f40; 
 }
 
 h1,
@@ -82,7 +77,19 @@ img::-moz-selection {
 
 body {
   -webkit-tap-highlight-color: #212529; }
+  
+ .teamNumber{
+	 text-align: center;
+	 color: black;
+ }
 
+ .teamBody{
+	 text-align:left;
+	 color: #757575;
+	 background: #E1E1E1;
+ }
+ 
+ 
 #mainNav {
   border-bottom: 1px solid rgba(33, 37, 41, 0.1);
   background-color: #fff;
@@ -142,189 +149,6 @@ body {
           #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover,
           #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover {
             color: #F05F40; } }
-
-header{
-  padding-top: 20%;
-  position: relative;
-  width: 100%;
-  background: url('img/group.png') no-repeat center center fixed;
-  background-size: cover;
-  background-position: center center;
-  padding-bottom: 30%;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-attachment: fixed;
-  text-align: center;
-}
-
-h1{
-  color: white;
-  text-align: center;
-  font-weight: bold;
-  font-size: 50px;
-}
-.logo{
-  width: 50px;
-}
-.teamBox{
-  width: 80%;
-  margin:auto;
-  background-color: #e8e8e8;
-  padding-bottom: 25px;
-  padding-top: 25px;
-  padding-left: 10px;
-  padding-right: 50px;
-  border: 25px solid white;
-  overflow: auto;
-}
-
-.teamName{
-  font-family: 'Roboto', 'sans-serif';
-  color: #767676;
-  font-size: 1.5vw;
-  padding-left: 15px;
-}
-
-#team{
-  margin-left: 5%;
-}
-
-.team-pic{
-  width: 100%;
-}
-
-.description{
-  font-family: 'Roboto', 'sans-serif';
-  color: #696969;
-  font-size: 0.75vw;
-  padding-left: 25px;
-}
-
-a:hover{
-    text-decoration: underline;
-}
-
-body {
-      -webkit-font-smoothing: antialiased;
-      font: normal 15px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-      color: #232525;
-      padding-top:70px;
-    }
-
-    #slides {
-      display: none
-    }
-
-    #slides .slidesjs-navigation {
-      margin-top:3px;
-    }
-
-    #slides .slidesjs-previous {
-      margin-right: 5px;
-      float: left;
-    }
-
-    #slides .slidesjs-next {
-      margin-right: 5px;
-      float: left;
-    }
-
-    .slidesjs-pagination {
-      margin: 6px 0 0;
-      float: right;
-      list-style: none;
-    }
-
-    .slidesjs-pagination li {
-      float: left;
-      margin: 0 1px;
-    }
-
-    .slidesjs-pagination li a {
-      display: block;
-      width: 20px;
-      height: 20px;
-      background-image: url(/img/pagination.png);
-      background-position: 0 0;
-      float: left;
-      overflow: hidden;
-    }
-
-    .slidesjs-pagination li a.active,
-    .slidesjs-pagination li a:hover.active {
-      background-position: 0 -13px
-    }
-
-    .slidesjs-pagination li a:hover {
-      background-position: 0 -26px
-    }
-
-    #slides a:link,
-    #slides a:visited {
-      color: #333
-    }
-
-    #slides a:hover,
-    #slides a:active {
-      color: #9e2020
-    }
-
-    .navbar {
-      overflow: hidden
-    }
-#slides {
-      display: none
-    }
-
-    .container {
-      margin: 0 auto
-    }
-
-    /* For tablets & smart phones */
-    @media (max-width: 767px) {
-      body {
-        padding-left: 20px;
-        padding-right: 20px;
-      }
-      .container {
-        width: auto
-      }
-    }
-
-    /* For smartphones */
-    @media (max-width: 480px) {
-      .container {
-        width: auto
-      }
-    }
-
-    /* For smaller displays like laptops */
-    @media (min-width: 768px) and (max-width: 979px) {
-      .container {
-        width: 724px
-      }
-    }
-
-    /* For larger displays */
-    @media (min-width: 1200px) {
-      .container {
-        width: 1170px
-      }
-    }
-
-  }
-.linkss{
-	color: lightblue;
-}
-.resourcefulness{
-	text-align: center;
-	width: 800px;
-	overflow: auto;
-	margin: auto;
-}
-a.linkss:hover{
-	color: black;
-	text-decoration: none;
-}
+			
+			
 
