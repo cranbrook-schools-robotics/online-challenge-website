@@ -168,15 +168,9 @@ h1{
   width: 50px;
 }
 .teamBox{
-  width: 80%;
-  margin:auto;
-  background-color: #e8e8e8;
-  padding-bottom: 25px;
-  padding-top: 25px;
-  padding-left: 10px;
-  padding-right: 50px;
-  border: 25px solid white;
-  overflow: auto;
+  background:#F2F2F2;
+  margin-left:10px;
+  margin-bottom: 10px;
 }
 
 .teamName{
@@ -191,8 +185,11 @@ h1{
 }
 
 .team-pic{
+	height:auto;
   width: 100%;
 }
+
+
 
 .description{
   font-family: 'Roboto', 'sans-serif';
