@@ -29,7 +29,7 @@ hr.light {
 }
 
 a {
-  color: lightblue;
+  color: grey;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   transition: all 0.2s; 
@@ -322,7 +322,7 @@ body {
 
   }
 .linkss{
-	color: lightblue;
+	color: #bfbfbf;
 }
 .resourcefulness{
 	text-align: center;
