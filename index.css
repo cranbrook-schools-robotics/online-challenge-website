@@ -40,7 +40,9 @@ a {
 a:hover {
   color: blue; 
 }
-
+p{
+font-size: 18px;
+}
 h1,
 h2,
 h3,
@@ -388,12 +390,14 @@ h2{
   text-align: center;
   font-size: 3.5em;
 }
-h3,h4,h5{
+h3,h4,h5,h6,.header{
   margin-top: 6%;
   margin-bottom: 3%;
   font-size: 2em;
 }
-
+.emphasize{
+  font-weight: bold;
+}
 .content-textbox{
   margin-top: 1%;
   font-size: 1.2em;
